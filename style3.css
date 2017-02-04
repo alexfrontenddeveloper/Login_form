@@ -1,0 +1,161 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://localhost:63342/Login_form/img/Login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input
+{
+    outline: thin;
+    border: none;
+}
+.dody_form
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -150px;
+    width: 300px;
+    height: 400px;
+    background-color: #121317;
+}
+#header
+{
+    margin-bottom: 20px;
+}
+#header #first, #header #second
+{
+    vertical-align: middle;
+    margin-top: 30px;
+    display: inline-block;
+    height: 50px;
+}
+#first
+{
+    width: 60%;
+    float: left;
+}
+#first h1
+{
+    padding: 5px;
+    margin: 0;
+    color: #5d5c5d;
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+}
+#second
+{
+    width: 50px;
+    background-image: url(img/logo.png);
+    background-size: 100% 100%;
+}
+#login_field input, #password_field input
+{
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+    height: 90%;
+    width: 95%;
+    font-size: 15px;
+    background-color: #18191e;
+    color: #979696;
+}
+#login_field #login_first, #login_field #login_second
+{
+    vertical-align: middle;
+    background-color: #18191e;
+    margin-top: 30px;
+    display: inline-block;
+    height: 40px;
+}
+#login_first
+{
+    background-color: #18191e;
+}
+#login_second
+{
+    margin-left: -4px;
+    background-color: #18191e;
+    background-image: url(img/man.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    width: 40px;
+}
+#password_field #password_first, #password_field #password_second
+{
+    vertical-align: middle;
+    margin-top: 30px;
+    display: inline-block;
+    height: 40px;
+}
+#password_first
+{
+    background-color: #18191e;
+}
+#password_second
+{
+    background-color: #18191e;
+    background-image: url(img/star.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40% 40%;
+    width: 40px;
+    margin-left: -4px;
+}
+#btn a
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #5d5c5d;
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+    color: rgb(209,209,217);
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: 1em 5.8em;
+    outline: none;
+    border-radius: 3px;
+    background: linear-gradient(#fa694e, #f8735a) rgb(110,112,120);
+    box-shadow:
+            0 1px rgba(255,255,255,.2) inset,
+            0 3px 5px rgba(0,1,6,.5),
+            0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+}
+#btn a:hover:not(:active)
+{
+    background: linear-gradient(#f95233, #dd492d) rgb(126,126,134);
+}
+#btn a:active
+{
+    top: 1px;
+    background: linear-gradient(#ce3316, #b8260b) rgb(76,77,82);
+    box-shadow:
+            0 0 1px rgba(0,0,0,.5) inset,
+            0 2px 3px rgba(0,0,0,.5) inset,
+            0 1px 1px rgba(255,255,255,.1);
+}
+#Forgot a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ce3316;
+    font-family: ProximaNova, Arial, Tahoma;
+}
+@media(max-width: 450px)
+{
+    .dody_form1, .dody_form, #login, .form-wrapper
+    {
+        width: 245px;
+    }
+    #login fieldset
+    {
+        width: 217px;
+    }
+}

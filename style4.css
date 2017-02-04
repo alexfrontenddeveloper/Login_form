@@ -1,0 +1,113 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://localhost:63342/Login_form/img/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input
+{
+    outline: thin;
+}
+.dody_form1
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -225px 0 0 -150px;
+    width: 300px;
+    height: 450px;
+    background-image: url(img/Login1.png);
+    background-size: 100% 100%;
+}
+#header1
+{
+    margin-bottom: 20px;
+}
+#header1 #first1
+{
+    margin-top: 30px;
+    display: inline-block;
+    height: 50px;
+}
+#first1
+{
+    margin-bottom: 10px;
+    padding-top: 50px;
+    width: 100%;
+    float: left;
+}
+#first1 h1
+{
+    margin: 10px 10px 10px 10px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: #b6bcbf;
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+}
+#login_field1 input, #password_field1 input
+{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px 0 15px 0;
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+    height: 60%;
+    width: 65%;
+    font-size: 15px;
+    background: linear-gradient(#e7e7e7, #bfbfbf, #e7e7e7) rgb(76,77,82);
+    text-align: center;
+    color: #979696;
+}
+#btn1 a
+{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #5d5c5d;
+    font-family: ProximaNova, Arial, Tahoma;
+    font-weight: 100;
+    color: rgb(209,209,217);
+    text-decoration: none;
+    text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+    padding: 1em 4.8em;
+    outline: none;
+    border-radius: 3px;
+    background-image: url(img/btn.png);
+    background-size: 100% 100%;
+    transition: .2s ease-in-out;
+}
+#btn1 a:hover:not(:active)
+{
+    background-image: url(img/btn_hover.png);
+}
+#btn1 a:active
+{
+    top: 1px;
+    background-image: url(img/btn_active.png);
+}
+#Forgot1 a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: #ce3316;
+    font-family: ProximaNova, Arial, Tahoma;
+}
+/*-----------------------------------------------------*/
+@media(max-width: 450px)
+{
+    .dody_form1, .dody_form, #login, .form-wrapper
+    {
+        width: 245px;
+    }
+    #login fieldset
+    {
+        width: 217px;
+    }
+}

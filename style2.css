@@ -1,0 +1,111 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: url(http://localhost:63342/Login_form/img/bg.png);
+}
+input
+{
+    outline: thin;
+}
+[class*="fontawesome-"]:before
+{
+    font-family: 'FontAwesome', sans-serif;
+}
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+
+/* ---------- LOGIN ---------- */
+
+#login
+{
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    width: 400px;
+    height: 310px;
+    margin: -155px 0 0 -200px;
+}
+#login label
+{
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Arial, Tahoma;
+}
+#login h2 {
+    background-color: #f95252;
+    -webkit-border-radius: 20px 20px 0 0;
+    -moz-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+    color: #fff;
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    padding: 20px 26px;
+}
+
+#login h2 span[class*="fontawesome-"] {
+    text-align: center;
+}
+
+#login fieldset {
+    background-color: #fff;
+    -webkit-border-radius: 0 0 20px 20px;
+    -moz-border-radius: 0 0 20px 20px;
+    border-radius: 0 0 20px 20px;
+    width: 370px;
+    margin: 0;
+}
+
+#login fieldset p {
+    color: #789;
+    margin-bottom: 14px;
+}
+
+#login fieldset p:last-child {
+    margin-bottom: 0;
+}
+
+#login fieldset input {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#login fieldset input[type="email"], #login fieldset input[type="password"] {
+    background-color: #789;
+    color: #777;
+    padding: 4px 10px;
+    width: 95%;
+}
+
+#login fieldset input[type="submit"] {
+    background-color: #33cc77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    padding: 4px 0;
+    width: 100px;
+    cursor:pointer;
+}
+
+#login fieldset input[type="submit"]:hover {
+    background-color: #28ad63;
+}
+@media(max-width: 450px)
+{
+    .dody_form1, .dody_form, #login, .form-wrapper
+    {
+        width: 245px;
+    }
+    #login fieldset
+    {
+        width: 217px;
+    }
+}
